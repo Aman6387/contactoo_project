@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Home Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <script type="text/javascript" src="script.js"></script>
+
+
+        <!-- header and logo -->
+        <div class="header">
+                <a class="logo"href="#">Smart Contact Manager</a>
+                <div class="nav">
+                    <a class="nav-item" href="#">Logout</a> 
+                    <a class="nav-item" href="#">User Name</a> 
+                    <a class="nav-item" href="index.html">Home</a> 
+                    <a class="nav-item" href="profile.html">Profile</a> 
+                    <a class="nav-item" href="login.html">Login</a> 
+                    <a class="nav-item" href="signup.html">Signup</a> 
+                </div>
+                <div class="divider"></div>
+        </div>
+
+        <!-- {/* nav bar and content */} -->
+
+        <!-- {/* sidebar */} -->
+
+        <div class="sidebar">
+            <span onclick="closeNav()" class="crossBtn">&times;</span>
+            <a class="sidebar-items" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a class="sidebar-items" href="viewContact.html"><i class="fa-solid fa-address-book"></i>View Contacts</a>
+            <a class="sidebar-items" href="addContact.html"><i class="fa-solid fa-user-pen"></i>Add Contact</a>
+            <a class="sidebar-items" href="profile.html"><i class="fa-solid fa-user"></i>Your Profile</a>
+            <a class="sidebar-items" href="settings.html"><i class="fa-sharp fa-solid fa-gear"></i>Settings</a>
+            <a class="sidebar-items" href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a>
+        </div>
+
+        <!-- {/* content */} -->
+
+        <div class="content">
+            <i onclick="openNav()" class="fas fa-bars"></i>
+            <div>contacts</div>
+        </div>
+
+    </body>
+</html>
