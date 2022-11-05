@@ -2,13 +2,13 @@
     <head>
         <title> Home Page</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="About.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <script type="text/javascript" src="script.js"></script>
 
 
-        <!-- header and logo -->
          <!-- header and logo -->
          <div class="topnav">
             <img class="logo" src="images/contactoo.png">
@@ -31,37 +31,23 @@
             <a class="sidebar-items" href="About.html"><i class="fa-solid fa-circle-info"></i>About Us</a> 
         </div>
 
-        <!-- {/* content */} -->
         <div class="content">
             <span onclick="openNav()" class="hambergurgers"><i class="fa fa-bars" aria-hidden="true"></i></span>
         </div>
-        <div class="signup-form-container delete-header">
-            <h2 class="heading">Add Contact</h2>
-            <form action="http://localhost:8080/addContact" method="post">
-                <div class="signup-element-container">
-                    <div class="form-group">
-                        <label class="label" for="Name">Name</label>
-                        <input type="text" placeholder="Enter your name" class="form-input" name="name" id="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label class="label" for="email">Email</label>
-                        <input type="text" placeholder="Enter your email" class="form-input" name="email" id="email" required 
-                               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
-                               title="xxxx@yyyy.zzz format">
-                    </div>
-                    <div class="form-group">
-                        <label class="label" for="mobile_number">Mobile Number</label>
-                        <input type="text" placeholder="Enter your mobile number" class="form-input" name="mobile_number" id="mobile_number" pattern="[0-9]{10}">
-                    </div>
-                    <div class="form-group">
-                        <label class="label" for="work">work</label>
-                        <input type="text" placeholder="Enter your work" class="form-input" name="work" id="work"  required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Add" class="btn">
-                </div>
-            </form>
+
+        <div class="article">
+            <!-- Heading -->
+            <h1 class="heading">
+                CONTACTOO : Smart Contact Manager
+            </h1>
+            <h3 class="sub-heading">
+                The original contact management system (CMS) was Exsell for DOS by Excalibur Sources, released in 1984.
+            </h3>
+            <img class="article-image" src="images/contactoo.png">
+            <p class="article-paragraph">
+                A contact manager is a software program that enables users to easily store and find contact information, such as names, addresses, and telephone numbers. They are contact-centric databases that provide a fully integrated approach to tracking all information and communication activities linked to contacts. Simple ones for personal use are included in most smartphones.
+                In management terminology, advanced contact managers can be called individual resource management (IRM) or contact management (CM) tools – systems for managing an individual's interactions with current and future contacts, to organize, collaborate, and synchronize health, lifestyle, and financial needs.
+            </p>
         </div>
 
         <!-- footer -->
