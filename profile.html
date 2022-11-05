@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="scriptProfile.js"></script>
 
 
         <!-- header and logo -->
@@ -24,7 +24,7 @@
         <div class="sidebar cross1" >
             <span onclick="closeNav()" class="crossBtn">&times;</span>
             <a class="sidebar-items" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-            <a class="sidebar-items" href="profile.html"><i class="fa-solid fa-user"></i>Your Profile</a>
+            <a class="sidebar-items" href="profile.html"><i class="fa-solid fa-user"></i>Profile</a>
             <a class="sidebar-items" href="addContact.html"><i class="fa-solid fa-user-pen"></i>Add Contact</a>
             <a class="sidebar-items" href="updateContact.html"><i class="fa-solid fa-pen"></i>Update Contact</a>
             <a class="sidebar-items" href="deleteContact.html"><i class="fa-sharp fa-solid fa-trash"></i>Delete Contact</a>
@@ -36,6 +36,28 @@
         <span onclick="openNav()" class="hambergurgers"><i class="fa fa-bars" aria-hidden="true"></i></span>
         </div>
 
+
+        <div id="profile-container">
+            <img id="profile-img" src="images/groot.png">
+            <div class="table-form-container">
+                <h2 class="heading">Profile</h2>
+            </div>
+        </div>
+                <div class="container">
+                <!-- On tables -->
+                <!-- On tables -->
+                    <table border="1" cellpadding="8" cellspacing="0">
+                        <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Mobile Number</th>
+                        </thead>
+                        <tbody id="profile_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         <!-- footer -->
         <!-- <footer>
             <div id="socal">

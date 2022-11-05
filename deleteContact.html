@@ -13,7 +13,10 @@
          <div class="topnav">
             <img class="logo" src="images/contactoo.png">
             <a class="active" href="#">Logout</a> 
-            <input class=" searchButton" placeholder="Search . .  ." type="text" name="search"  pattern="[0-9]{10}" required>
+            <form action="" method="post">
+                <input class=" Btn search-Btn" type="submit" formaction="http://localhost:8080/search" >
+                <input class=" searchButton SBtn" placeholder="Search . .  ." type="text" name="mobile_number"  pattern="[0-9]{10}" required>
+            </form> 
         <div class="divider"></div>
         </div>
 
@@ -24,7 +27,7 @@
         <div class="sidebar cross1" >
             <span onclick="closeNav()" class="crossBtn">&times;</span>
             <a class="sidebar-items" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
-            <a class="sidebar-items" href="profile.html"><i class="fa-solid fa-user"></i>Your Profile</a>
+            <a class="sidebar-items" href="profile.html"><i class="fa-solid fa-user"></i>Profile</a>
             <a class="sidebar-items" href="addContact.html"><i class="fa-solid fa-user-pen"></i>Add Contact</a>
             <a class="sidebar-items" href="updateContact.html"><i class="fa-solid fa-pen"></i>Update Contact</a>
             <a class="sidebar-items" href="deleteContact.html"><i class="fa-sharp fa-solid fa-trash"></i>Delete Contact</a>

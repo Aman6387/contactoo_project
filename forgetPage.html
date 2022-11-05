@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUpForm</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <header>
+            Smart Contact Manager
+        </header>
+        <div class="main">
+            <div class="signup">
+                <h2>Update Password</h2>
+                <form id="register" action="http://localhost:8080/forgetpasword" method="post">
+                    <label for = "emailid">Emailid:</label><br>
+                    <input type="text" name="emailid" id="emailid" placeholder="Enter Your EmailId"
+                     required>
+                    <br><br>
+                    <label for="pw">Password:</label><br>
+                    <input type="password" name="password" id="pw" placeholder="Enter Password" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters " required>
+                    <br><br>
+                    <button type="submit" value="Submit" id="submit"><a href="LogIn.html">Update</a></button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
